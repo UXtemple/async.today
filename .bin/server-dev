@@ -3,7 +3,6 @@
 BIN=node_modules/.bin
 
 sudo NODE_ENV=development \
-  APP=. \
   KEY=.dev-ssl/server.key \
   CRT=.dev-ssl/server.crt \
   $BIN/nodemon --ext js,es6 \

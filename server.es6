@@ -4,7 +4,7 @@ import https from 'https';
 import pkg from './package.json';
 
 const server = createServer({
-  apps: ['.']
+  apps: ['node_modules/async.today']
 });
 
 const options = {

@@ -11,6 +11,7 @@
     "pacpan:watch": ".bin/pacpan-watch",
     "push": ".bin/push",
     "start": ".bin/start",
+    "start:dev": ".bin/start-dev",
     "test": ".bin/test"
   },
   "repository": {
