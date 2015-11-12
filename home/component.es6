@@ -4,7 +4,7 @@ import React from 'react';
 
 const Home = props => (
   <Panel style={style.panel} width={props.width}>
-    <h1>Async</h1>
+    <h1 style={style.title}>Async</h1>
   </Panel>
 );
 
@@ -23,5 +23,8 @@ const style = {
   panel: {
     backgroundColor: BLACK,
     fontFamily: FONT
+  },
+  title: {
+    color: WHITE
   }
 }

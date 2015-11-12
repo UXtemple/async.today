@@ -1,7 +1,7 @@
 {
-  "name": "app.async.today",
+  "name": "async.today",
   "version": "0.0.0",
-  "description": "app.async.today",
+  "description": "async.today's site on Panels",
   "main": "index.js",
   "scripts": {
     "build": ".bin/build",
@@ -10,14 +10,15 @@
     "pacpan": ".bin/pacpan",
     "pacpan:watch": ".bin/pacpan-watch",
     "push": ".bin/push",
+    "start": ".bin/start",
     "test": ".bin/test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UXtemple/app.async.today.git"
+    "url": "https://github.com/UXtemple/async.today.git"
   },
   "keywords": [
-    "app.async.today",
+    "async.today",
     "panels",
     "UXtemple"
   ],
@@ -28,36 +29,26 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dariocravero/app.async.today/issues"
+    "url": "https://github.com/UXtemple/async.today/issues"
   },
-  "homepage": "https://github.com/dariocravero/app.async.today#readme",
+  "homepage": "https://github.com/UXtemple/async.today#readme",
   "devDependencies": {
     "babel": "^5.8.23",
-    "babel-plugin-react-transform": "^1.1.1",
     "babelify": "^6.4.0",
     "browserify": "^12.0.1",
-    "browserify-hmr": "^0.3.1",
     "envify": "^3.4.0",
     "exorcist": "^0.4.0",
-    "react-transform-catch-errors": "^1.0.0",
-    "react-transform-hmr": "^1.0.1",
-    "redbox-react": "^1.1.1",
+    "nodemon": "^1.8.1",
     "uglify-js": "^2.5.0",
     "watchify": "^3.4.0"
   },
   "dependencies": {
     "browser-vendor-prefix": "^1.0.0",
-    "can-use-dom": "^0.1.0",
-    "panels-ui": "^0.6.0",
-    "pouchdb": "^5.1.0",
-    "react": "^0.14.0",
+    "panels": "^1.0.0",
+    "panels-ui": "^0.6.5",
+    "react": "^0.14.2",
     "react-redux": "^4.0.0",
-    "recordrtc": "^5.2.3",
     "redux": "^3.0.0",
-    "redux-logger": "^2.0.0",
-    "redux-promise": "^0.6.0-alpha",
-    "redux-thunk": "^1.0.0",
-    "right-now": "^1.0.0",
-    "webrtc-adapter-test": "^0.2.5"
+    "redux-logger": "^2.0.0"
   }
 }
