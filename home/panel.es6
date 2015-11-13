@@ -1,5 +1,9 @@
+import { GREY_LIGHT, WHITE } from '../styles';
+
 export default {
-  background: '#F2F2F2',
+  background: {
+  	color: GREY_LIGHT
+  },
   title: 'Async',
   type: 'Home'
 };
