@@ -1,4 +1,4 @@
-import { BIG, BOLD, BLUE, FONT, GREY_1, GREY_BODY, GREY_SUBTITLE, LIGHT, MEDIUM, RED_LIGHT, SMALL, WHITE } from '../styles';
+import { BIG, BOLD, BLUE, FONT, GREY_1, GREY_2, GREY_BODY, GREY_SUBTITLE, LIGHT, MEDIUM, RED_LIGHT, SMALL, WHITE } from '../styles';
 import { flexDirectionRow, alignSelfFlexStart } from 'browser-vendor-prefix';
 import { Panel } from 'panels-ui';
 import React from 'react';
@@ -16,9 +16,10 @@ const Home = props => (
       <li style={style.problem}>Making meeting notes</li>
     </ul>
     <h3 style={style.deadline}>17 days left to private beta release!</h3>
-    <div style={style.updates}>For updates <a style={style.follow} href="https://twitter.com/asynctoday">Follow @asynctoday</a>on Twitter</div>
+    <div style={style.updates}>For invites <a style={style.follow} href="https://twitter.com/asynctoday">Follow @asynctoday</a>on Twitter</div>
     <img style={style.wave} src='//async.today/wave-red.svg' alt='wave logo'/>
-    <h3 style={style.madeon}>Engineered on CouchDB, Panels, Pouchdb, React and Redux</h3>
+    <h3 style={style.madeon}>Engineered on CouchDB, UsePanels, Pouchdb, React and Redux</h3>
+    <h3 style={style.byline}>By UXtemple</h3>
   </Panel>
 );
 
@@ -34,6 +35,13 @@ const style = {
     marginTop: 60,
     marginLeft: 30
   },
+  byline: {
+    color: GREY_2,
+    fontSize: SMALL,
+    fontWeight: LIGHT,
+    marginTop: -5,
+    marginLeft: 30
+  },
   deadline: {
     color: RED_LIGHT,
     fontSize: MEDIUM,
@@ -43,7 +51,7 @@ const style = {
     textDecoration: 'none'
   },
   madeon: {
-    color: GREY_SUBTITLE,
+    color: GREY_2,
     fontSize: SMALL,
     fontWeight: LIGHT,
     marginTop: 10,
