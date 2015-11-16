@@ -15,7 +15,7 @@ const Home = props => (
       <li style={style.problem}>Missing meetings</li>
       <li style={style.problem}>Making meeting notes</li>
     </ul>
-    <h3 style={style.deadline}>16 days left to private beta release!</h3>
+    <h3 style={style.deadline}>15 days left to private beta release!</h3>
     <div style={style.updates}>For invites <a style={style.follow} href="https://twitter.com/asynctoday">Follow @asynctoday</a>on Twitter</div>
     <img style={style.wave} src='//async.today/wave-red.svg' alt='wave logo'/>
     <h3 style={style.madeon}>Engineered on CouchDB, UsePanels, Pouchdb, React and Redux</h3>
