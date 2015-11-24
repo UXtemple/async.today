@@ -40,7 +40,8 @@ const style = {
     fontSize: SMALL,
     fontWeight: LIGHT,
     marginTop: 5,
-    marginLeft: 30
+    marginLeft: 30,
+    paddingBottom: 100
   },
   deadline: {
     color: RED_LIGHT,
@@ -59,8 +60,7 @@ const style = {
   },
   panel: {
     backgroundColor: WHITE,
-    fontFamily: FONT,
-    paddingBottom: 60
+    fontFamily: FONT
   },
   problem: {
     color: GREY_BODY
