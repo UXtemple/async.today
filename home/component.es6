@@ -59,7 +59,8 @@ const style = {
   },
   panel: {
     backgroundColor: WHITE,
-    fontFamily: FONT
+    fontFamily: FONT,
+    paddingBottom: 60
   },
   problem: {
     color: GREY_BODY
