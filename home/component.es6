@@ -15,7 +15,7 @@ const Home = props => (
       <li style={style.problem}>Missing meetings</li>
       <li style={style.problem}>Making meeting notes</li>
     </ul>
-    <h3 style={style.deadline}>17 days left to private beta release!</h3>
+    <h3 style={style.deadline}>6 days left to private beta release!</h3>
     <div style={style.updates}>For invites <a style={style.follow} href="https://twitter.com/asynctoday">Follow @asynctoday</a>on Twitter</div>
     <img style={style.wave} src='//async.today/wave-red.svg' alt='wave logo'/>
     <h3 style={style.madeon}>Engineered on CouchDB, UsePanels, Pouchdb, React and Redux</h3>
@@ -39,7 +39,7 @@ const style = {
     color: GREY_2,
     fontSize: SMALL,
     fontWeight: LIGHT,
-    marginTop: -5,
+    marginTop: 5,
     marginLeft: 30
   },
   deadline: {
@@ -69,9 +69,9 @@ const style = {
     fontWeight: BOLD,
     lineHeight: '1.6',
     listStyle: 'none',
-    marginLeft: -10,
+    marginLeft: 30,
     marginBottom: 0,
-    marginTop: 0,
+    marginTop: 10,
     textDecoration: 'line-through'
   },
   title: {
@@ -108,6 +108,7 @@ const style = {
     fontSize: SMALL,
     fontWeight: BOLD,
     marginLeft: 30,
+    marginTop: 10,
     ...flexDirectionRow,
     textTransform: 'uppercase'
   },
